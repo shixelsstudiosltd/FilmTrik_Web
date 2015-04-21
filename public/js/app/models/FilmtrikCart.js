@@ -54,9 +54,9 @@ define([
         },
         total: function() {
             var cart_total = null;
-            for (var i = 0; i < Filmtrik.cart.count(); i++) {
-                cart_total += parseInt(Filmtrik.cart.items[i].price.replace(/\D/g,''));
-            }
+            // for (var i = 0; i < Filmtrik.cart.count(); i++) {
+            //     cart_total += parseInt(Filmtrik.cart.items[i].price.replace(/\D/g,''));
+            // }
 
             return cart_total;
         }

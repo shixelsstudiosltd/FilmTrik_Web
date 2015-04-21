@@ -1541,6 +1541,11 @@ form input[type='number']::-webkit-inner-spin-button {
 
 #main-footer-container {
   background: #03406a; }
+  #main-footer-container .footer-top {
+    max-height: 300px;
+    border-bottom: 2px solid #034573; }
+  #main-footer-container .footer-bottom {
+    max-height: 140px; }
 
 /*!
  * Bootstrap v3.3.1 (http://getbootstrap.com)

@@ -5,7 +5,9 @@ define([
     'underscore', 
     'handlebars',
     'models/FilmtrikCoreAPI',
-    'models/FilmtrikCart'
+    'models/FilmtrikCart',
+    'models/FilmtrikMovieAPI',
+    'models/FilmtrikTvAPI'
     ],
     function (
     $, 
@@ -14,16 +16,21 @@ define([
     _, 
     Handlebars,
     FilmtrikCoreAPI,
-    FilmtrikCart
+    FilmtrikCart,
+    FilmtrikMovieAPI,
+    FilmtrikTvAPI
     ){
-        var Filmtrik = window.Filmtrik = new Backbone.Marionette.Application();
+        var Filmtrik = FT = ft = window.Filmtrik = window.FT = window.ft = new Backbone.Marionette.Application();
 
         function isMobile() {
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
             return ((/iPhone|iPod|iPad|Android|BlackBerry|Opera Mini|IEMobile/).test(userAgent));
         }
 
-        Filmtrik.api = new FilmtrikCoreAPI();
+        Filmtrik.api = {};
+        Filmtrik.api.core = new FilmtrikCoreAPI();
+        Filmtrik.api.movies = new FilmtrikMovieAPI();
+        Filmtrik.api.tv = new FilmtrikTvAPI();
         Filmtrik.cart = new FilmtrikCart();
         Filmtrik.cart.items = [];
         

@@ -220,6 +220,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/posters\/small\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24614,
+		"inputAbbreviatedPath": "\/public\/img\/posters\/small\/1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/posters\/small\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/posters\/small\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29684,
+		"inputAbbreviatedPath": "\/public\/img\/posters\/small\/2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/posters\/small\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/posters\/small\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30666,
+		"inputAbbreviatedPath": "\/public\/img\/posters\/small\/3.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/posters\/small\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/spiderman_banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1114,17 +1147,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/server\/server.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/server\/server.js",
-		"outputAbbreviatedPath": "\/server\/min\/server-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
