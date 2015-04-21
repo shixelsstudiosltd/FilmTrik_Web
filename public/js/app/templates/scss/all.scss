@@ -1,0 +1,22 @@
+//HELPERS
+@import "variables.scss";
+
+//FONT AWESOME 
+@import "plugins/font-awesome/font-awesome.scss";
+
+//TEMPLATES
+@import "navLoggedIn.scss";
+@import "userMenu.scss";
+@import "searchMenu.scss";
+@import "boxOffice.scss";
+@import "moviePreview.scss";
+@import "footer.scss";
+@import "preview.scss";
+
+//PLUGINS
+@import "plugins/bootstrap.scss";
+@import "plugins/edit.scss";
+@import "plugins/animations.scss";
+
+//VENDOR
+@import "vendor/toggle.scss";

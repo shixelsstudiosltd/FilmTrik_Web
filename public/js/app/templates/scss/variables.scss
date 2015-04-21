@@ -1,0 +1,58 @@
+
+$blue: #0192f6;
+$shadow: #999;
+$dark_blue: #03406a;
+$medium_blue: #0261a2;
+$white: #fff;
+$black: #000;
+
+$linkedin_color: #1883BB;
+$facebook_color: #425F9C;
+$twitter_color: #4B9ED1;
+
+
+.glass-effect {
+	box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3), 0px 2px 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+@include font-face("Open Sans", font-files("../fonts/opensans/regular.ttf"));
+
+$primary_font: "Open Sans";
+
+.unselectable {
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+button.btn.btn-primary {
+	background: $blue;
+	border: 1px solid darken($blue, 5%) !important;
+	&:hover {
+		background: darken($blue, 5%);
+	}
+}
+
+button.btn.btn-secondary {
+	background: $dark_blue !important;
+	border: 1px solid darken($dark_blue, 5%) !important;
+	color: $white;
+	margin-bottom: 15px;
+
+	&:hover {
+		background: darken($dark_blue, 5%);
+	}
+}
+form input[type='number']::-webkit-outer-spin-button,
+form input[type='number']::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+.show {
+	display: block !important;
+}

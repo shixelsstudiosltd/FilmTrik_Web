@@ -1,0 +1,1 @@
+define(["Filmtrik","backbone","marionette","views/NavLoggedInView"],function(e,n,i,t){return n.Marionette.Controller.extend({initialize:function(e){},index:function(){e.appRouter.navigate("dashboard",{trigger:!0})},dashboard:function(){e.headerRegion.show(new t)}})});
